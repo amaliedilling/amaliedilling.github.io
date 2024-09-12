@@ -37,26 +37,26 @@ const Navbar = () => {
       {/* social */}
       <div className='hidden lg:flex fixed flex-col top-[35%] -left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full text-[#334EAC]'
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#7096D1] hover:ml-[-10px] duration-300'>
+            <a className='flex justify-between items-center w-full text-[#F7F2EB]'
               href="/">
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full text-[#334EAC]'
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#334EAC] hover:ml-[-10px] duration-300'>
+            <a className='flex justify-between items-center w-full text-[#F7F2EB]'
               href="/">
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full text-[#334EAC]'
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#D0E3FF] hover:ml-[-10px] duration-300'>
+            <a className='flex justify-between items-center w-full text-[#081F5C]'
               href="/">
               E-mail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full text-[#334EAC]'
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#081F5C] hover:ml-[-10px] duration-300'>
+            <a className='flex justify-between items-center w-full text-[#D0E3FF]'
               href="/">
               CV <BsFillPersonLinesFill size={30} />
             </a>
